@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/contentBodyColor"
+    tools:context=".activity.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/socialicons"
+        android:layout_alignParentBottom="true"
+        android:gravity="fill_horizontal"
+        android:layout_marginLeft="20dp">
+
+        <ImageView
+            android:onClick="homeAction"
+            android:layout_width="55dp"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:id="@+id/home"
+            android:src="@drawable/home" />
+
+        <Button
+            android:id="@+id/addTask"
+            android:layout_width="48dp"
+            android:layout_height="52dp"
+            android:background="@drawable/create"
+            android:layout_margin="20dp" />
+<!--        <ImageView-->
+<!--            android:layout_width="48dp"-->
+<!--            android:layout_height="48dp"-->
+<!--            android:layout_margin="18dp"-->
+<!--            android:src="@drawable/day"/>-->
+
+        <ImageView
+            android:id="@+id/calendarView"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="20dp"
+            android:src="@drawable/month"/>
+
+        <ImageView
+            android:onClick="settingAction"
+            android:id="@+id/setting"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="20dp"
+            android:src="@drawable/setting" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@null"
+        android:fontFamily="@font/bangers"
+        android:text="add event"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/daily_bg"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/noDataImage"
+                android:layout_gravity="center"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/taskRecycler"/>
+
+        </FrameLayout>
+    </LinearLayout>
+
+</LinearLayout>

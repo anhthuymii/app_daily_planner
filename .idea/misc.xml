@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/dung/Downloads/todo-list-master/app/src/main/res/drawable/ic_baseline_supervised_user_circle_24.xml" value="0.1" />
+        <entry key="..\:/Users/dung/Downloads/todo-list-master/app/src/main/res/layout/activity_alarm.xml" value="0.13541666666666666" />
+        <entry key="..\:/Users/dung/Downloads/todo-list-master/app/src/main/res/layout/activity_checkbox.xml" value="0.13541666666666666" />
+        <entry key="..\:/Users/dung/Downloads/todo-list-master/app/src/main/res/layout/activity_giaodien.xml" value="0.12613981762917933" />
+        <entry key="..\:/Users/dung/Downloads/todo-list-master/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/dung/Downloads/todo-list-master/app/src/main/res/layout/activity_setting.xml" value="0.264" />
+        <entry key="..\:/Users/dung/Downloads/todo-list-master/app/src/main/res/layout/dialog_completed_theme.xml" value="0.13541666666666666" />
+        <entry key="..\:/Users/dung/Downloads/todo-list-master/app/src/main/res/layout/fragment_calendar_view.xml" value="0.12613981762917933" />
+        <entry key="..\:/Users/dung/Downloads/todo-list-master/app/src/main/res/layout/fragment_create_task.xml" value="0.13541666666666666" />
+        <entry key="..\:/Users/dung/Downloads/todo-list-master/app/src/main/res/layout/item_task.xml" value="0.13541666666666666" />
+        <entry key="..\:/Users/dung/Downloads/todo-list-master/app/src/main/res/layout/new_task.xml" value="0.1947463768115942" />
+        <entry key="..\:/Users/dung/Downloads/todo-list-master/app/src/main/res/layout/task_layout.xml" value="0.12613981762917933" />
+        <entry key="..\:/Users/dung/Downloads/todo-list-master/app/src/main/res/menu/menu.xml" value="0.2553846153846154" />
+        <entry key="..\:/lap trinh dd/BT nhom/todo-list-master/app/src/main/res/layout/activity_setting.xml" value="0.18342391304347827" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>

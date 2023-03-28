@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TaskListApplication</string>
+    <string name="delete_confirmation">Confirmation</string>
+    <string name="sureToDelete">Bạn có chắc chắn muốn xóa nhiệm vụ này không ?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="back"><![CDATA[<-]]></string>
+    <string name="forward"><![CDATA[->]]></string>
+    <string name="confirmation">Đã hoàn thành nhiệm vụ !</string>
+    <string name="sureToMarkAsComplete">Are you sure you want to mark this task as completed.</string>
+    <string name="congrats_you_have_completed_the_task_successfully">Chúc mừng ! Bạn đã hoàn thành xong nhiệm vụ.</string>
+</resources>

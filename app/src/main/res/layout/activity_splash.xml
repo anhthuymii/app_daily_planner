@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity"
+    android:background="@color/contentBodyColor">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:layout_marginTop="80dp"
+        android:text="Daily"
+        android:textSize="60dp"
+        android:fontFamily="@font/bangers"
+        android:textColor="@color/white"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:gravity="center"
+        android:layout_marginTop="130dp"
+        android:text="planner"
+        android:textSize="80dp"
+        android:fontFamily="@font/bangers"
+        android:textColor="@color/white"/>
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:src="@drawable/plash"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="90dp"/>
+
+
+</RelativeLayout>
