@@ -10,5 +10,5 @@ Các chức năng gồm có: Intro, giao diện chính, add event, add task chec
   + dark mode: giao diện app sẽ được điều chỉnh chế độ sáng hoặc tối để phù hợp hơn.
   + login/logout user: người dùng có thể đăng nhập bằng tài khoản google
   
-Đặc trưng:
-- Sử dụng ngôn ngữ android.
+# Features:
+- using android.
