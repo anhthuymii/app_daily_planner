@@ -1,14 +1,11 @@
 # app_daily_planner:
-App Daily Planner là ứng dụng không chỉ được thiết kế để giúp người sử dụng tối ưu và sắp xếp các công việc cá nhân, App Daily Planner còn hỗ trợ người sử dụng có thể tạo các nhiệm vụ để thông báo, nhắc nhở người dùng. Do đó, App Daily Planner cực phù hợp với những ai thường xuyên quên và cần có người nhắc nhở các công việc cá nhân. Giúp cho người dùng có thể hoàn thành công việc một cách tốt nhất.
-
-Các chức năng gồm có: Intro, giao diện chính, add event, add task check, setting: dark mode và login/logout user.
-- Intro: thời gian chờ load vào app.
-- giao diện chính: lịch biểu và ngày hiện tại.
-- add event: tạo một sự kiện mới gồm có tên sự kiện, ngày, thời gian, chuông báo, ghi chú.
-- add task: tạo một ghi chú nhanh bằng cách đánh dấu những mục đã hoàn thành.
-- setting: 
-  + dark mode: giao diện app sẽ được điều chỉnh chế độ sáng hoặc tối để phù hợp hơn.
-  + login/logout user: người dùng có thể đăng nhập bằng tài khoản google
+App Daily Planner is an application that is designed not only to help users optimize and organize their personal tasks, but also to support them in creating tasks for notification and reminders. Therefore, App Daily Planner is extremely suitable for those who often forget and need someone to remind them of their personal tasks. It helps users to complete their tasks in the best possible way.
   
 # Features:
-- using android.
+- Intro: Loading time for the app.
+- Main interface: schedule and current date.
+- Add event: create a new event including event name, date, time, alarm, note.
+- Add task: create a quick note by marking completed items.
+- Setting:
+  - Dark mode: the app interface will be adjusted to a brighter or darker mode to be more suitable.
+  - Login/logout user: users can log in with their Google account.
